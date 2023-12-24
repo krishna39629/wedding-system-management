@@ -3,7 +3,7 @@ ob_start();
 date_default_timezone_set('Asia/Manila');
 $webroot = "/var/www/html/";
 define('DS', DIRECTORY_SEPARATOR);
-define('SITE_ROOT', $webroot.DS.'wedding-system-managemen'.DS.'admin');
+define('SITE_ROOT', $webroot.DS.'Wedding-Management-PHP'.DS.'admin');
 define('INCLUDES_PATH', SITE_ROOT.DS.'include');
 require_once(INCLUDES_PATH.DS."Helper.php");
 require_once(INCLUDES_PATH.DS."config.php");
